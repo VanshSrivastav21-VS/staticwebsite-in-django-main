@@ -6,23 +6,51 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
-            
-
-
+        * {
+            padding: 0;
+            margin: 0;
+            font-size: 1.125rem;
+            line-height: 1.5;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-sizing: border-box;
+        }
+        .container {
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .contact h1{
+            color: blue;
+            font-size: 2rem;
+        }
+        .contact{
+            margin: 15rem;
+        }
+        .about{
+            margin-top: 15rem;
+            list-style: none;
+            float: right;
+            margin-bottom: 30rem;
+        }
+        
 
     </style>
 </head>
 <body>
-  <div class="xop-banner"></div>
-    <div class="site-container">
-       <article class="article-card">
-        <figure class="article-image">
-            <i class="fa-regular fa-comment" style="color: #e3e7ed;"></i>
-        </figure>
-        <div class="article-content">
-            <h3 class="card-title"> App Consultancy <br> We help you define the best features for your app.</h3>
-        </div>
-       </article>
-    </div>  
-</body>
+   <div class="container">
+    <div class="contact">
+        <h3>Contact with us</h3>
+        <p>Twitter <br> Facebook <br> Instagram </p>
+    </div>
+    <div class="about">
+        <h3>Mailing Address</h3> 
+        <p>123 Anywhere St, Any City State, Country 12345</p>
+        <br>
+        <h3>Email Address</h3>
+        <p>hello@reallygreatsite.com</p>
+        <br>
+        <h3>Phone Number</h3>
+        (123) 456 7890
+    </div>
+   </div>
 </html>

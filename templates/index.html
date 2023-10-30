@@ -99,33 +99,101 @@
      /* Section 1 CSS Ends */
      /* Section 2 CSS Starts */
         .font {
-            padding: 4rem;
-            background-color: rgb(128, 128, 128);
-            width: 40%;
+            padding: 2rem;
+            background-color: rgb(210,210,210);
+            width: 28%;
         }
         .font p{
             line-height: 1;
-            font-size: 1.35rem;
-            color: rgb(63, 60, 60);
+            font-size: 1rem;
+            color: rgb(168,168,168);
             padding-top: 2rem;
             font-weight: bold;
         }
         .font span{
-            color: rgb(71, 163, 216);
+            color: rgb(150,160,212);
             font-weight: bolder;
-            font-size: 3rem;
+            font-size: 2rem;
         }
         img{
             border-radius: 2rem;
         }
         .img1{
-            padding-top: 1.5rem;
+            padding-top: 1rem;
         }
         .img2{
             padding-top: 10rem;
-            padding-bottom: 1.5rem;
+            padding-bottom: 1rem;
         }
     /* Section 2 CSS Ends  */
+    /* Section 3 CSS Starts */
+    .title{
+        text-align: center;
+        color: rgb(65,109,242);
+        font-weight: bolder;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    #content{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #content div{
+        background-color: rgb(65,109,242);
+        min-height: 18rem;
+        max-width: 19rem;
+        padding: 2.5rem;
+        position: relative;
+        border-radius: 2rem;
+        margin: 1.5rem;
+    }
+    #content h1{
+        color: white;
+    }
+    #content p{
+        color: white;
+    }
+/* Section 3 CSS Ends */
+/* Section 4 CSS Starts */
+#bg-color{
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+    height: 600px;
+    background-image: linear-gradient(120deg, #16a2bb, #0e349c);
+}
+#bg-color span{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+#bg-color p{
+    font-size: 2rem;
+    top: 30%;
+    min-height: 80vh;
+    width: min(38ch, 100%);
+    margin-inline: auto;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+/* Section 4 CSS Ends */
+.contact{
+    justify-content: center;
+}
+.contact h3{
+    color: rgb(65,109,242);
+    font-size: 2.5rem;
+}
+.about{
+    justify-content: center;
+    float: right;
+}
+.about h2{
+    color: rgb(65,109,242);
+}
+/* Section 5 CSS Ends */
     </style>
 </head>
 <body>
@@ -160,26 +228,84 @@
             <div class="font">
              <span>Our Company Story</span> 
                  <p>
-                     ZimCore Hubs was formed by college freinds tasked to create an app for their thesis. They enjoyed woking together so much that they built a company.
+                     ZimCore Hubs was formed by college freinds tasked to create an app for their thesis. They
+                     enjoyed woking together so much that they built a company.
                  </p>
              </div>
          <div class="img1">
-             <img src="/static/images/Employee 1.jpg" width="300px" height="600px">
+             <img src="/static/images/Employee 1.jpg" width="400px" height="600px">
          </div>
          <div class="img2">
-             <img src="/static/images/Employee 2.jpg" width="300px" height="600px">
+             <img src="/static/images/Employee 2.jpg" width="400px" height="600px">
          </div>
      </div>
     </section>
 <!-- Section 2 HTML Ends -->
-    <section class="container">
+<!-- Section 3 HTML Starts -->
+<section>
+    <div class="title"> Our Services </div>
+        <div id="content">
+            <div>
+                <i class="fa-regular fa-comment fa-flip-horizontal fa-2xl" style="color: #0cc5f3;"></i>
+                <br>
+                <br>
+                <h1>App Consultancy</h1>
+                <br>
+                <p>We help you define the best features for your app.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-table-columns fa-2xl" style="color: #0cc5f3;"></i>
+                <br>
+                <br>
+                <h1>UX and UI Design</h1>
+                <br>
+                <p>We provide outstanding app design for your users.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-window-maximize fa-flip-vertical fa-2xl" style="color: #0cc5f3;"></i>
+                <br>
+                <br>
+                <h1>App Development</h1>
+                <br>
+               <p> We emlpoy a team of experts to build your app.</p>
+            </div>
 
-    </section>
-    <section class="container">
+</section>
+<!-- Section 3 HTML Ends  -->
+<!-- Section 4 HTML Starts -->
+<section>
+    <div id="bg-color">
+        <p> <span> Technology </span> isn't about the latest gadgets or apps. It's about what these things do for people. It's about bringing people together and <span> making lives better.</span></p>
+    </div>
+</section>
+<!-- Section 4 HTML Ends -->
+<!-- Section 5 HTML Starts -->
+<section class="container">
+    <div class="inner-container">
+        <div class="contact">
+            <h3>Contact with us</h3>
+            <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+            Twitter 
+            <br> 
+            <i class="fa-brands fa-facebook-f" style="color: #030408;"></i>
+            Facebook 
+            <br> 
+            <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+            Instagram
+        </div>
+        <div class="about">
+            <h2> <i class="fa-solid fa-location-crosshairs" style="color: #0a3e99;"></i> Mailing Address</h2> 
+            <p>123 Anywhere St, Any City State, Country 12345</p>
+            <br>
+            <h2> <i class="fa-solid fa-envelope" style="color: #0a3e99;"></i> Email Address</h2>
+            <p>hello@reallygreatsite.com</p>
+            <br>
+            <h2> <i class="fa-solid fa-phone" style="color: #073688;"></i>Phone Number</h2>
+            (123) 456 7890
+        </div> 
+    </div>
+</section>
+<!-- Section 5 HTML Ends -->
 
-    </section>
-    <section class="container">
-
-    </section>
 </body>
 </html>
