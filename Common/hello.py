@@ -1,6 +1,5 @@
-# a simple interest program
-p = 12000
-r = 1.6
-t = 5
-si = p * r * t / 100
-print(f"Simple Interest = {si}") 
+from function import total_amount
+from function2 import total_amount
+amount = total_amount(10000, 15)
+print(f'Amount = {amount}')
+

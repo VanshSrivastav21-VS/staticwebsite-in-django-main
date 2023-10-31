@@ -139,21 +139,19 @@
         align-content: center;
         justify-content: center;
     }
-    #content div{
-        background-color: rgb(65,109,242);
+    .card{
+        background-color: #0a3e99;
         min-height: 18rem;
         max-width: 19rem;
-        padding: 2.5rem;
-        position: relative;
-        border-radius: 2rem;
+        border-radius: 1.5rem;
+        padding: 2rem;
         margin: 1.5rem;
+        position: relative;
     }
-    #content h1{
-        color: white;
+    .card h1{
+        line-height: 5rem;
     }
-    #content p{
-        color: white;
-    }
+    
 /* Section 3 CSS Ends */
 /* Section 4 CSS Starts */
 #bg-color{
@@ -194,7 +192,7 @@
     color: rgb(65,109,242);
 }
 /* Section 5 CSS Ends */
-    </style>
+</style>
 </head>
 <body>
 <!-- Section 1 HTML Starts -->
@@ -243,33 +241,24 @@
 <!-- Section 2 HTML Ends -->
 <!-- Section 3 HTML Starts -->
 <section>
-    <div class="title"> Our Services </div>
+     <div class="title"> Our Services </div>
         <div id="content">
-            <div>
+            <div class="card">
                 <i class="fa-regular fa-comment fa-flip-horizontal fa-2xl" style="color: #0cc5f3;"></i>
-                <br>
-                <br>
                 <h1>App Consultancy</h1>
-                <br>
                 <p>We help you define the best features for your app.</p>
             </div>
-            <div>
+            <div class="card">
                 <i class="fa-solid fa-table-columns fa-2xl" style="color: #0cc5f3;"></i>
-                <br>
-                <br>
                 <h1>UX and UI Design</h1>
-                <br>
                 <p>We provide outstanding app design for your users.</p>
             </div>
-            <div>
+            <div class="card">
                 <i class="fa-regular fa-window-maximize fa-flip-vertical fa-2xl" style="color: #0cc5f3;"></i>
-                <br>
-                <br>
                 <h1>App Development</h1>
-                <br>
                <p> We emlpoy a team of experts to build your app.</p>
             </div>
-
+        </div>
 </section>
 <!-- Section 3 HTML Ends  -->
 <!-- Section 4 HTML Starts -->
@@ -285,10 +274,10 @@
         <div class="contact">
             <h3>Contact with us</h3>
             <i class="fa-brands fa-twitter" style="color: #000000;"></i>
-            Twitter 
+            Twitter
             <br> 
             <i class="fa-brands fa-facebook-f" style="color: #030408;"></i>
-            Facebook 
+            Facebook
             <br> 
             <i class="fa-brands fa-instagram" style="color: #000000;"></i>
             Instagram
