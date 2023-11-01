@@ -1,4 +1,5 @@
-def total_area(height, width, radius):
-    ar = h * w
-    ac = pi * r ** 2
-    return ar + ac
+def AreaofRectangle_AreaofCircle(width, height, radius):
+    AreaofRectangle = width * height
+    AreaofCircle = pi * r ** 2
+    
+    
